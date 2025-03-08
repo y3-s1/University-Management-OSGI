@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FacultyDashboard
+Bundle-SymbolicName: com.university.facultyDashboard
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.university.facultydashboard.FacultyDashboardActivator
+Bundle-Vendor: UNIVERSITY
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.university.facultyDashboard
+Import-Package: com.university.course,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
