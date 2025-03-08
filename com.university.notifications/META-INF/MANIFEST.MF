@@ -5,7 +5,8 @@ Bundle-SymbolicName: com.university.notifications
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.university.notifications.NotificationActivator
 Export-Package: com.university.notifications
-Import-Package: org.osgi.framework;version="1.3.0"
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.service.event;version="[1.3.0,2.0.0)"
 Bundle-Vendor: UNIVERSITY
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Automatic-Module-Name: com.university.notifications
