@@ -5,7 +5,7 @@ Bundle-SymbolicName: com.university.notificationconsumer
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.university.notificationconsumer.NotificationConsumerActivator
 Bundle-Vendor: UNIVERSITY
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Automatic-Module-Name: com.university.notificationconsumer
 Import-Package: com.university.notifications,
  org.osgi.framework;version="1.3.0",

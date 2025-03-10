@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.university.notifications.NotificationCommand">
+   <property name="osgi.command.scope" value="notify"/>
+   <property name="osgi.command.function" value="send"/>
+   <service>
+      <provide interface="com.university.notifications.NotificationCommand"/>
+   </service>
+   <reference cardinality="1..1" field="eventAdmin" interface="org.osgi.service.event.EventAdmin" name="eventAdmin"/>
+   <implementation class="com.university.notifications.NotificationCommand"/>
+</scr:component>
